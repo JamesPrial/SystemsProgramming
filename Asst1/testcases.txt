@@ -1,5 +1,0 @@
-workload D follows similar logic to workload C, in that it randomly chooses whether to malloc or free 240 times, but it differs in that the blocks malloc'd
-are of a random size between 1 and 20 bytes. this was included to test if mymalloc() can handle mallocing blocks of (somewhat) arbitrary size.
-
-wokload E does all the same things as workload D, but it also implements a function after mallocing that randomly sets  the values in the malloc'd block
-to be numbers 0-9. This was done to test users using the malloc call and then utilizing the allocated memory.
