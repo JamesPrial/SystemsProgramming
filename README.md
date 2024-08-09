@@ -1,5 +1,5 @@
 # SystemsProgramming
-Projects produced for Systems Programming course CS214\\
+Projects produced for Systems Programming course CS214\n
 CS214 - Code Quality Guidelines
 
 Every function must have a comment describing the intended purpose and use of the function. Specifically, what the function is "for", not necessarily what it "does".
