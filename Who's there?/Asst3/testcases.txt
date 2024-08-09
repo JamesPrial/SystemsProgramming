@@ -1,0 +1,35 @@
+my test cases were as follows. My first test case was a properly formatted exchange, (without the quotes)
+"REG|13|Knock, Knock.|";
+"REG|12|Who's there?|";
+"REG|4|Who.|";
+"REG|9|Who, who?|";
+"REG|30|I didn't know you were an owl!|";
+"REG|4|Ugh.|";
+
+my next test cases were to test error detection. to test length checking,
+"REG|13|Knock, Knock.|";
+"REG|14|Who's there?|"; //note the error here
+"REG|4|Who.|";
+"REG|9|Who, who?|";
+"REG|30|I didn't know you were an owl!|";
+"REG|4|Ugh.|";
+
+to test format
+"REG|13|Knock, Knock.|";
+"REG|12Who's there?|"; //error here again
+"REG|4|Who.|";
+"REG|9|Who, who?|";
+"REG|30|I didn't know you were an owl!|";
+"REG|4|Ugh.|";
+
+to test content
+"REG|13|Knock, Knock.|";
+"REG|12|Woo's there?|";//error here again
+"REG|4|Who.|";
+"REG|9|Who, who?|";
+"REG|30|I didn't know you were an owl!|";
+"REG|4|Ugh.|";
+
+and finally the last test case was to see if the server properly handled incoming error messages,
+"REG|13|Knock, Knock.|";
+"ERR|M0CT|";
