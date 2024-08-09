@@ -1,0 +1,4 @@
+I used various things for test cases. I used the examples given in the project writeup so i could compare my answer to the given one.
+I then used the three project writeups themselves for the three projects we've had so far, since i figured they would use similar langauge.
+I also used song lyrics of songs by Drake, since i thought songs by the same person would use similar words.
+And finally i used chapters from random political textbook for similar reasons as above.
